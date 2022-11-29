@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.001856] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.001983] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.008447] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.010203] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/shuma/ros2_ws/src/person_msgs', '-DCMAKE_INSTALL_PREFIX=/home/shuma/ros2_ws/src/person_msgs/install/person_msgs'], 'cwd': '/home/shuma/ros2_ws/src/person_msgs/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shuma'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/shuma'), ('OLDPWD', '/home/shuma/ros2_ws/src/person_msgs/msg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/home/shuma/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shuma'), ('NAME', 'DESKTOP-F4NA426'), ('WSL_INTEROP', '/run/WSL/10_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/shuma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shuma/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shuma/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shuma/ros2_ws/src/person_msgs/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shuma/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/shuma/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.099174] (-) TimerEvent: {}
+[0.118506] (person_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.199431] (-) TimerEvent: {}
+[0.299816] (-) TimerEvent: {}
+[0.400193] (-) TimerEvent: {}
+[0.488645] (person_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.500357] (-) TimerEvent: {}
+[0.600663] (-) TimerEvent: {}
+[0.701069] (-) TimerEvent: {}
+[0.801518] (-) TimerEvent: {}
+[0.802179] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901690] (-) TimerEvent: {}
+[0.914519] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.919372] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.919560] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.919811] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.921700] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.001815] (-) TimerEvent: {}
+[1.023162] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.028051] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.028307] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.028690] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.029978] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.102057] (-) TimerEvent: {}
+[1.144127] (person_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.200498] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.202145] (-) TimerEvent: {}
+[1.207289] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.218619] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.302300] (-) TimerEvent: {}
+[1.370618] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402437] (-) TimerEvent: {}
+[1.502764] (-) TimerEvent: {}
+[1.586585] (person_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.586920] (person_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[1.586969] (person_msgs) StderrLine: {'line': b'  person_msgs --arguments-file\n'}
+[1.587003] (person_msgs) StderrLine: {'line': b'  /home/shuma/ros2_ws/src/person_msgs/build/person_msgs/rosidl_adapter__arguments__person_msgs.json\n'}
+[1.587037] (person_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[1.587069] (person_msgs) StderrLine: {'line': b'  /home/shuma/ros2_ws/src/person_msgs/build/person_msgs/rosidl_adapter/person_msgs\n'}
+[1.587101] (person_msgs) StderrLine: {'line': b'  --output-file\n'}
+[1.587133] (person_msgs) StderrLine: {'line': b'  /home/shuma/ros2_ws/src/person_msgs/build/person_msgs/rosidl_adapter/person_msgs.idls)\n'}
+[1.587164] (person_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.587195] (person_msgs) StderrLine: {'line': b'\n'}
+[1.587228] (person_msgs) StderrLine: {'line': b"  Error processing 'uint age' of 'person_msgs/Person': ''uint' is an invalid\n"}
+[1.587259] (person_msgs) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''\n"}
+[1.587291] (person_msgs) StderrLine: {'line': b'\n'}
+[1.587322] (person_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.587354] (person_msgs) StderrLine: {'line': b'\n'}
+[1.587385] (person_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.587416] (person_msgs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.587447] (person_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.587482] (person_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.587513] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.587545] (person_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.587575] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.587606] (person_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.587637] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.587668] (person_msgs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.587699] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.587729] (person_msgs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.587760] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[1.587791] (person_msgs) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.587821] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[1.587851] (person_msgs) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.587880] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.587911] (person_msgs) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.587944] (person_msgs) StderrLine: {'line': b'\n'}
+[1.587974] (person_msgs) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'uint' is an invalid message\n"}
+[1.588005] (person_msgs) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.588036] (person_msgs) StderrLine: {'line': b'\n'}
+[1.588067] (person_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.588098] (person_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.588131] (person_msgs) StderrLine: {'line': b'  CMakeLists.txt:11 (rosidl_generate_interfaces)\n'}
+[1.588163] (person_msgs) StderrLine: {'line': b'\n'}
+[1.588193] (person_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.588225] (person_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.588263] (person_msgs) StdoutLine: {'line': b'See also "/home/shuma/ros2_ws/src/person_msgs/build/person_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.592862] (person_msgs) CommandEnded: {'returncode': 1}
+[1.604073] (-) TimerEvent: {}
+[1.606217] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 1}
+[1.607166] (-) EventReactorShutdown: {}
